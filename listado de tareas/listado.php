@@ -10,7 +10,7 @@
 
 <body>
     <?php
-    include("conexion.php");
+    include("conexion.php"); 
     ?>
     
         <header>
@@ -42,10 +42,10 @@
                             <td><?php echo $r['TA'] ?></td>
                             <td><?php echo $r['ES'] ?></td>
                             <td>
-                                <a href="Editar.php" class="btn btn-primary">
+                                <a href="actualizar.php" class="btn btn-primary">
                                     <span>Editar</span>
                                 </a>
-                                <a href="Borrar.php" class="btn btn-danger">
+                                <a href="eliminar.php" class="btn btn-danger">
                                     <span>Borrar</span>
                                 </a>
                             </td>
@@ -53,7 +53,7 @@
                         </tr>
                     <?php } ?>
                 </table>
-                <a href="Nuevo.php" class="btn btn-primary">
+                <a href="agregar.php" class="btn btn-primary">
                     <span>Tarea Nueva</span>
                 </a>
                 <a href="index.php" class="btn btn-dark" >
