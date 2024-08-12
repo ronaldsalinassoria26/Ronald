@@ -43,7 +43,7 @@
 
                     if ($rs) {
                         echo "<script>alert('Tarea eliminada!!!');
-                                location.href='ToDoList.php'</script>";
+                                location.href='listado.php'</script>";
                     } else {
                         echo "Ocurrio un error " . mysqli_error($cn);
                     }

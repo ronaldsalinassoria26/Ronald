@@ -15,7 +15,7 @@
     
         <header>
             <center>
-            <h1>LISTA DE TAREAS</h1 </header>
+            <h1>LISTADO DE TAREAS DE </h1 </header>
             </center>
         <hr>
             <section>

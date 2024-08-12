@@ -62,7 +62,7 @@
 
                     if ($rs) {
                         echo "<script>alert('Registro de Menu correcto!!!');
-                                location.href='ToDoList.php'</script>";
+                                location.href='listado.php'</script>";
                     } else {
                         echo "Ocurrio un error " . mysqli_error($cn);
                     }
